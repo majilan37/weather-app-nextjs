@@ -1,0 +1,20 @@
+schema: "./stepzen/curl/index.graphql"
+generates:
+  graphql/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations:
+          strictScalars: true
+          scalars:
+            BooleanType: boolean
+            CustomData: Record<string, unknown>
+            Date: string
+            DateTime: string
+            Time: string
+            FloatType: number
+            IntType: number
+            ItemId: string
+            JsonField: unknown
+            MetaTagAttributes: Record<string, string>
+            UploadId: string
+      - typed-document-node

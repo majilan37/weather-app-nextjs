@@ -1,0 +1,4 @@
+{
+  "endpoint": "api/toned-prawn",
+  "root": "stepzen/curl"
+}
