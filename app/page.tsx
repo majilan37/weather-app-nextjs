@@ -1,4 +1,4 @@
-import CityPicker from "@/components/Citypicker";
+import CityPicker from "../components/CityPicker";
 import { Card, Divider, Subtitle, Text } from "../tremor";
 
 export default function Home() {

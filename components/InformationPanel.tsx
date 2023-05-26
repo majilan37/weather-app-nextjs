@@ -1,7 +1,7 @@
 import type { Query } from "@/graphql/generated";
 import { weatherCodeToString } from "@/lib/weatherCodeToString";
 import Image from "next/image";
-import CityPicker from "./Citypicker";
+import CityPicker from "./CityPicker";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 
 interface Props {
